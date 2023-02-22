@@ -8,7 +8,7 @@ if getgenv().Aimbot then return end
 
 --// Load Aimbot V2 (Raw)
 
-loadstring(game:HttpGet("https://github.com/HelpWizz/AimbotV2/blob/main/Resources/Scripts/Raw%20Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HelpWizz/AImbotV1.3/main/Aimbot-V1/Resources/Scripts/Main.lua"))()
 
 --// Variables
 

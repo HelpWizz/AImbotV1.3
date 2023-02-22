@@ -8,7 +8,7 @@ if getgenv().Aimbot then return end
 
 --// Load Aimbot V2 (Raw)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HelpWizz/AImbotV1.3/main/Aimbot-V1/Resources/Scripts/Raw%20Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Raw%20Main.lua"))()
 
 --// Variables
 
@@ -24,10 +24,10 @@ local Parts = {"Head", "HumanoidRootPart", "Torso", "Left Arm", "Right Arm", "Le
 Library.UnloadCallback = Functions.Exit
 
 local MainFrame = Library:CreateWindow({
-	Name = "Symple's Juice",
+	Name = "Aimbot V2",
 	Themeable = {
 		Image = "7059346386",
-		Info = "Made by Symple ur fav dev",
+		Info = "Made by Exunys\nPowered by Pepsi's UI Library",
 		Credit = false
 	},
 	Background = "",
@@ -291,8 +291,8 @@ FunctionsSection:AddButton({
 })
 
 FunctionsSection:AddButton({
-	Name = "Join the Discord Server",
+	Name = "Copy Script Page",
 	Callback = function()
-		setclipboard("https://discord.gg/aUqyytCq4c")
+		setclipboard("https://github.com/Exunys/Aimbot-V2")
 	end
 })
